@@ -1,0 +1,212 @@
+*{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #596b73;
+}
+
+body{
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+}
+
+.parentDiv{
+    margin-top: 5rem;
+    height: 500px;
+    width: 450px;
+    background-color: white;
+    box-shadow: 10px 15px 15px 10px #e6f0f6, -10px -5px 15px 10px #e6f0f6;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.x{
+    position: absolute;
+    height: 1px;
+    width: 10px;
+    background-color: grey;
+    transform: rotate(135deg);
+    margin-left: 400px;
+}
+
+.x2{
+    position: absolute;
+    height: 1px;
+    width: 10px;
+    background-color: grey;
+    transform: rotate(-135deg);
+    margin-left: 400px;
+}
+
+.textDiv{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.yourresults{
+    color: #2a2d2e;
+}
+
+.lineHolder{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.textHolder{
+    background-color: white;
+    margin-bottom: 2rem;
+}
+
+.textLine{
+    height: 1px;
+    width: 60%;
+    background-color: #f6f8f9;
+}
+
+.pointSection{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 1.5rem;
+}
+
+.pointchild{
+    height: 100%;
+    width: 120px;
+}
+
+.averageTime{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.averageText{
+    margin-top: -1rem;
+    font-size: 14px;
+    color: #aeb0b2;
+}
+
+.pointsCircle{
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    border: 10px solid #f2f6f5;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.colourCircle{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background-color: unset;
+    border: 10px solid #1d8adf;
+    border-radius: 0% 100% 100% 0% / 100% 0% 100% 0%;
+    box-sizing: border-box;
+    transform: rotate(270deg);
+    margin-left: 205px
+}
+
+.textCircle{
+    position: absolute;
+    height: 101px;
+    width: 101px;
+    background-color: white;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 154px;
+    margin-top: 9px;
+}
+
+.averageWork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.averageWorkText{
+    margin-top: -1rem;
+    font-size: 14px;
+    color: #aeb0b2;
+}
+
+.I0points{
+    margin-bottom: 0;
+}
+
+.of30{
+    margin-top: 0;
+}
+
+.myAward{
+    margin-bottom: 10px;
+}
+
+.awardContent{
+    height: 126.80px;
+    width: 100%;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: space-around;
+}
+
+.awardChild{
+    height: 100%;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.challengeContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.challengeText{
+    font-size: 10px;
+}
+
+.awardImg{
+    width: 60px;
+    margin-top: 15px;
+}
+
+.awardText{
+    font-size: 12px;
+}
+
+.awardbar{
+    height: 13px;
+    width: 100%;
+    background-color: #f3f5f7;
+    border-radius: 10px;
+}
+
+.awardbar2{
+    position: absolute;
+    height: 13px;
+    width: 200px;
+    background-color: #1f87e9;
+    border-radius: 10px;
+    margin-top: -13px;
+}
